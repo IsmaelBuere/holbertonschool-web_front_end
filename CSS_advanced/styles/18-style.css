@@ -83,13 +83,17 @@ a:active {
     color: var(--section-title-color);
 }
 
+.navbar-menu {
+    float: right;
+  }
+  
 .nav {
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
-}
-
+  }
+  
 .nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
@@ -97,21 +101,17 @@ a:active {
     letter-spacing: var(--nav-item-letter-spacing);
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
-}
-
+  }
+  
 .nav .nav-link {
     display: block;
     padding: 0.5rem 1rem;
-}
-
+  }
+  
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
-}
-
-.navbar-menu {
-    float: right;
-}
-
+  } 
+  
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
