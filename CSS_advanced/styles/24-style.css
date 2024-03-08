@@ -4,6 +4,7 @@
     box-sizing: border-box;
    }
 
+
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -210,4 +211,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .social-link svg {
     fill: var(--text-color);
+}
+
+.card-services .card-title {
+    margin: 0;
+}
+
+.card-services a {
+    display: block;
+    padding: 2rem;
+    background-color: var(--color-light-grey);
+}
+
+.card-services a:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    text-decoration: none;
 }
