@@ -59,9 +59,9 @@ ul.row {
 .card-services .card-title {
     margin: 0;
 }
-.card-services a {
+.card-services a{
     display: block;
-    padding: calc(2 * var(--font-size-medium));
+    padding: 2rem;
     background-color: var(--color-light-grey);
 }
 .card-services a:hover {
