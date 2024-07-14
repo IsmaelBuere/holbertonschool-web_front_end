@@ -34,6 +34,7 @@ a:hover {
 a:active {
     background-color: var(--color-light-grey);
 }
+
 ul.row {
     margin: 0;
     padding: 0;
@@ -51,14 +52,11 @@ ul.row {
     float: left;
     padding: 0.5rem;
 }
-[class^="col-"] {
-    float: left;
-    padding: 0.5rem;
-}
 
 .visually-hidden {
     display: none;
 }
+
 .card-category {
     color: #D73953;
 }
@@ -155,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: var(--section-header-align);
 }
 
-.navbar-menu{
+.navbar-menu {
     float: right;
 }
 
@@ -166,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-.nav .nav-item{
+.nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -175,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: var(--nav-item-margin);
 }
 
-.nav .nav-link{
+.nav .nav-link {
     display: block;
     padding: 0.5rem 1rem;
 }
@@ -183,6 +181,18 @@ h1, h2, h3, h4, h5, h6 {
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class^="col-"] {
+    float: left;
+    padding: 0.5rem;
+}
+
 .footer-copyright {
     margin: 0;
     font-size: var(--font-size-small);
@@ -193,6 +203,6 @@ h1, h2, h3, h4, h5, h6 {
     text-align: right;
 }
 
-.footer{
+.footer {
     padding: var(--footer-padding);
 }
